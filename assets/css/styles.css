@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Londrina+Shadow&family=Londrina+Sketch&family=Secular+One&family=Zilla+Slab+Highlight:wght@700&family=Tourney&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 96vh;
+    /* width: 100vw; */
+    background-image: url(/assets/img/arnold-dogelis-nN7xx9mecic-unsplash.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Tourney', cursive;
+    color: whitesmoke;
+    font-size: 3.5em;
+}
+
+body header nav ul {
+    /* background-color: antiquewhite; */
+    /* background:rgba(250, 235, 215, 50%);
+    border-radius: 10px; */
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+body header nav ul li {
+    background:rgba(250, 235, 215, 50%);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+body main .left {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: rgba(250, 235, 215, 75%);
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+
+  body main .right {
+      margin-left: 20%;
+  }
+
+  h2 {
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    font-size: 2em;
+  }
+
+  h3 {
+    font-family: 'Zilla Slab Highlight', cursive;
+  }
+
+  body main .right article {
+    background-color: rgba(250, 235, 215, 75%);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 100px;
+    padding: 15px 35px;
+  }
+
+  footer {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+  }
