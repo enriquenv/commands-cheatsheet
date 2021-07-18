@@ -5,7 +5,7 @@ body {
     padding: 0;
     height: 96vh;
     /* width: 100vw; */
-    background-image: url(/assets/img/arnold-dogelis-nN7xx9mecic-unsplash.jpeg);
+    background-image: url(assets/img/arnold-dogelis-nN7xx9mecic-unsplash.jpeg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -33,6 +33,13 @@ body header nav ul li {
     border-radius: 5px;
     display: inline-block;
     padding: 10px 15px;
+}
+
+body header nav ul li:hover {
+  background:rgba(217, 240, 88, 0.5);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 15px;
 }
 
 body main .left {
